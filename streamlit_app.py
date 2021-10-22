@@ -8,4 +8,5 @@ import streamlit as st
 
 st.slider("I'm a slider!", 0, 10, 5)
 
-webbrowser.open("https://www.google.com")
+if st.button("open google"):
+    webbrowser.open("https://www.google.com")
