@@ -10,3 +10,6 @@ import streamlit as st
 """
 
 st.slider("I'm a slider!", 0, 10, 5)
+
+st.snow()
+st.balloons()
