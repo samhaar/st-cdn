@@ -1,8 +1,16 @@
+# import streamlit as st
+
+# """
+# # Hi there 👋
+# """
+
+# st.snow()
+# st.balloons()
+
 import streamlit as st
+import pandas as pd
+import numpy as np
 
-"""
-# Hi there 👋
-"""
+df = pd.DataFrame(np.random.randn(50, 20), columns=("col %d" % i for i in range(20)))
+st.dataframe(df)
 
-st.snow()
-st.balloons()
